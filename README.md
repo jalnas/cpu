@@ -1,5 +1,7 @@
 # Circuit Simulator
 
+![Four bit memory](https://github.com/jalnas/cpu/assets/13324898/9423f5f7-9045-4ac8-a182-739113f2bdc5)
+
 I have always wanted to build a gate-by-gate circuit simulator where I build a working 8-bit processor that I can run programs on. Ideally in my own higher level language that compiles down to an assembler language.
 
 Obviously being able to zoom into the circuit to the gate level is a majority of the fun, so this project is attempting to build a reasonably manageable viewer for such a simulation.
