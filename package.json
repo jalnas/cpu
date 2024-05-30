@@ -1,0 +1,21 @@
+{
+	"dependencies": {
+		"esbuild": "0.19.4",
+		"react-dom": "18.2.0",
+		"@types/react-dom": "18.2.12",
+		"react-router-dom": "6.18.0",
+		"esbuild-sass-plugin": "2.16.0"
+	},
+	"name": "logic-gate-cpu",
+	"version": "1.0.0",
+	"type": "module",
+	"main": "./src/index.tsx",
+	"scripts": {
+		"esbuild": "esbuild ./index.html src/index.tsx --loader:.html=copy --outdir=build --bundle",
+		"start": "npm run esbuild -- --watch --servedir=build --serve-fallback=./index.html --inject:./livereload.js",
+		"build": "npm run esbuild -- --minify"
+	},
+	"author": "Patrik Jalnäs",
+	"license": "ISC",
+	"description": ""
+}

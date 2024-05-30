@@ -1,0 +1,15 @@
+{
+	"compilerOptions": {
+		/* Base Options: */
+		"esModuleInterop": true,
+		"skipLibCheck": true,
+		"jsx": "react",
+		"target": "es2022",
+		"strictNullChecks": false,
+		"sourceMap": true,
+		"moduleResolution": "Node",
+		/* If your code runs in the DOM: */
+		"lib": ["es2022", "dom", "dom.iterable"],
+		"paths": { "~/*": ["./src/*"] }
+	}
+}
